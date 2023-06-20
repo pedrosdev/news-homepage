@@ -229,14 +229,13 @@ section.suggested-articles {
     flex-grow: 1;
   }
 
-  .suggested-articles::after {
-    content: "";
-    flex-grow: 1;
+  section.suggested-articles {
+    justify-content: flex-start;
   }
 }
 
 @media (max-width: 774px) {
-  .suggested-articles::after {
-    content: none;
+  .highlighted-content > * {
+    flex-grow: 1;
   }
 }
