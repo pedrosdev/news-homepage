@@ -9,8 +9,8 @@ function toggleMenu() {
   menuBtn.classList.toggle("fixed");
 
   if (this.src.includes("icon-menu-close.svg")) {
-    this.src = "../assets/images/icon-menu.svg";
+    this.setAttribute("src", "../assets/images/icon-menu.svg")
   } else {
-    this.src = "../assets/images/icon-menu-close.svg";
+    this.setAttribute("src", "../assets/images/icon-menu-close.svg");
   }
 }
