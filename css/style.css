@@ -54,6 +54,10 @@ header {
   flex-shrink: 0;
 }
 
+.menu {
+  display: none;
+}
+
 .nav-items {
   gap: 40px;
   align-items: center;
@@ -92,11 +96,9 @@ section.highlighted-article {
 
 .highlighted-image {
   min-width: 300px;
-}
-
-.highlighted-image img {
-  width: 100%;
-  height: auto;
+  min-height: 300px;
+  background-image: url("../assets/images/image-web-3-desktop.jpg");
+  background-size: cover;
 }
 
 .highlighted-content {
@@ -237,5 +239,9 @@ section.suggested-articles {
 @media (max-width: 774px) {
   .highlighted-content > * {
     flex-grow: 1;
+  }
+
+  .highlighted-image {
+    background-image: url("../assets/images/image-web-3-mobile.jpg");
   }
 }
