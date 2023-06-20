@@ -217,3 +217,26 @@ section.suggested-articles {
 .suggested-article a:hover {
   color: var(--soft-red);
 }
+
+/* Media queries */
+
+@media (max-width: 1150px) {
+  body {
+    max-width: calc(1020px * (2/3) + 30px);
+  }
+
+  section.new-articles {
+    flex-grow: 1;
+  }
+
+  .suggested-articles::after {
+    content: "";
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 774px) {
+  .suggested-articles::after {
+    content: none;
+  }
+}
