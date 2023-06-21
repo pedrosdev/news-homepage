@@ -27,11 +27,11 @@ Users should be able to:
 
 ### What I learned
 
-This was a great opportunity to solidify my knowledge in flexbox, which I have been working with for a few weeks now. Also, this was the first project I made responsive while actually knowing what I was doing (though it might still have some flaws), and one of my first experiences with event handling in JavaScript.
+This was a great opportunity to solidify my knowledge in flexbox, with which I have been working for a few weeks now. Also, this was the first project I made responsive while actually knowing what I was doing (though it might still have some flaws), and one of my first experiences with event handling in JavaScript.
 
 ### Continued development
 
-I want to improve my abilities on event handling and DOM manipulation using JavaScript and also use different CSS properties and features on my future projects.
+I want to improve my abilities on event handling and DOM manipulation using JavaScript and also try some different CSS properties and features on my future projects.
 
 ## Author
 
