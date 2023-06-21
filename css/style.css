@@ -45,6 +45,18 @@ body {
   font-size: 15px;
 }
 
+.modal {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-grayish-blue);
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+
 header {
   justify-content: space-between;
   margin: 60px 0;
@@ -274,6 +286,7 @@ section.suggested-articles {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 9;
   }
 
   .nav-items li {

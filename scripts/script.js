@@ -4,8 +4,10 @@ menuBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
   const menu = document.querySelector(".nav-items");
+  const modal = document.querySelector(".modal");
 
   menu.classList.toggle("shown");
+  modal.classList.toggle("shown");
   menuBtn.classList.toggle("fixed");
 
   if (this.src.includes("icon-menu-close.svg")) {
