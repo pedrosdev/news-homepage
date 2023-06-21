@@ -10,9 +10,9 @@ function toggleMenu() {
   modal.classList.toggle("shown");
   menuBtn.classList.toggle("fixed");
 
-  if (this.src.includes("icon-menu-close.svg")) {
-    this.setAttribute("src", "assets/images/icon-menu.svg")
+  if (menuBtn.src.includes("icon-menu-close.svg")) {
+    menuBtn.setAttribute("src", "assets/images/icon-menu.svg")
   } else {
-    this.setAttribute("src", "assets/images/icon-menu-close.svg");
+    menuBtn.setAttribute("src", "assets/images/icon-menu-close.svg");
   }
 }
