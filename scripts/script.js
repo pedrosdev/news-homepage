@@ -6,13 +6,17 @@ function toggleMenu() {
   const menu = document.querySelector(".nav-items");
   const modal = document.querySelector(".modal");
 
-  menu.classList.toggle("shown");
-  modal.classList.toggle("shown");
-  menuBtn.classList.toggle("fixed");
+  [menu, modal].forEach((item) => item.classList.toggle("shown"));
+  
+  switchMenuButton(this);
+}
 
-  if (menuBtn.src.includes("icon-menu-close.svg")) {
-    menuBtn.setAttribute("src", "assets/images/icon-menu.svg")
+function switchMenuButton(btn) {
+  if (btn.src.includes("icon-menu-close.svg")) {
+    btn.setAttribute("src", "assets/images/icon-menu.svg")
   } else {
-    menuBtn.setAttribute("src", "assets/images/icon-menu-close.svg");
+    btn.setAttribute("src", "assets/images/icon-menu-close.svg");
   }
+
+  btn.classList.toggle("fixed");
 }
