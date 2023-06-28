@@ -13,7 +13,6 @@ Users should be able to:
 
 ### Links
 
-- [GitHub repository](https://github.com/pedrosdev/news-homepage)
 - [Live solution](https://pedrosdev.github.io/news-homepage/)
 
 ## My process
